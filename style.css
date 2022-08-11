@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -25,6 +26,7 @@
 	padding: 0;
 	font-family: sans-serif;
 	color: #fff;
+
 }
 .content{
 	width: 100%;
@@ -43,25 +45,30 @@ article h2{
 	padding: 0;
 
 }
-.content h1{
-	font-size: 70px;
-	margin-top: 80px;
 
+.content h1{
+	font-size: 100px;
+	margin-top: 10px;
+	font-family: "Silkscreen", sans-serif;
 }
+
 .content p{
-	margin: 20px auto;
+	margin: 30px auto;
 	font-weight: 100;
 	line-height: 25px;
 	font-size: 30px;
+		font-family: "Silkscreen", sans-serif;
 
 }
-a{
+.content a{
 	text-decoration: none;
-	color: #A10E3A;
+	color:  #009688;
 	text-transform: uppercase;
+	font-size: 180%;
+		font-family: "Silkscreen", sans-serif;
 }
 
-a::after{
+.content a::after{
 	content: '';
 	height: 3px;
 	width: 0;
@@ -71,21 +78,23 @@ a::after{
 	bottom: -10px;
 	transition: 0.5s;
 }
-a:hover::after{
+.content a:hover::after{
 	width: 100%;
 }
 
 .b{
 	color: teal;
+		font-family: "Silkscreen", sans-serif;
+		font-size: 170%;
 }
 button{
-	width: 200px;
-	padding: 15px 0;
+	width: 350px;
+	padding: 20px 0;
 	text-align: center;
 	margin: 20px 10px;
 	border-radius: 25px;
 	font-weight: bold;
-	border: 2px solid #009688;
+	border: 2px solid #A10E3A;
 	background: transparent;
 	color: #A10E3A;
 
