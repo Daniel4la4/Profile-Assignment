@@ -34,16 +34,15 @@ body{
 	margin-left: 15px;
 }
 .info{
-	font-size: 160%;
+	font-size: 150%;
 	text-align: center;
 	margin-left: 100px;
 	margin-right: 100px;
 		margin-top: 1%;
 }
-.me{
-	padding-left: 1000px;
-	margin-top: 80px;
-	position: relative;
+img{
+  margin: auto;
+  display: block;
 }
 .questions{
 	font-size: 175%;
