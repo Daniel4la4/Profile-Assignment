@@ -28,6 +28,7 @@ body{
 	color: #fff;
 
 }
+
 .student{
 	font-size: 150%;
 	color: #A10E3A;
@@ -38,17 +39,20 @@ body{
 	text-align: center;
 	margin-left: 100px;
 	margin-right: 100px;
-		margin-top: 1%;
+		margin-top: 20px;
 }
+
 .Pinfo img{
   margin: auto;
   display: block;
 }
-.interest img {
+.interest img, .ideal img {
 	margin: auto;
 	display: inline-block;
+	margin-bottom: 70px;
+	margin-top: 30px;
 }
-.elec{
+.elec, .middle{
 	text-align: center;
 
 }
@@ -57,7 +61,7 @@ body{
 	color: #A10E3A;
 	margin-left: 15px;
 	text-align: center;
-	margin-top: 1%;
+	margin-top: 4%;
 }
 .inf{
 	font-size: 160%;
@@ -140,4 +144,7 @@ button{
 	background: transparent;
 	color: #A10E3A;
 
+}
+li{
+	color: cyan;
 }
