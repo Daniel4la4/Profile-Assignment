@@ -46,10 +46,10 @@ body{
   margin: auto;
   display: block;
 }
-.interest img, .ideal img {
+.interest img, .ideal img, .profile img {
 	margin: auto;
 	display: inline-block;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 	margin-top: 30px;
 }
 .elec, .middle{
