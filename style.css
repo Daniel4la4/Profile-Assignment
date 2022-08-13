@@ -41,18 +41,38 @@ body{
 	margin-right: 100px;
 		margin-top: 20px;
 }
-
+.sub{
+margin-left: 1%;
+margin-top: 5%;
+color: hotpink;
+font-size: 150%;
+}
+ol{
+	margin-left: 5%;
+}
+.list{
+	margin-top: 2%;
+	font-size: 140%;
+	color: turquoise;
+}
+.source{
+	color: orange;
+	text-align: right;
+	font-size: 20px;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
 .Pinfo img{
   margin: auto;
   display: block;
 }
-.interest img, .ideal img, .profile img {
+.interest img, .ideal img, .profile img, .project img {
 	margin: auto;
 	display: inline-block;
 	margin-bottom: 40px;
 	margin-top: 30px;
 }
-.elec, .middle{
+.elec, .middle, .controls{
 	text-align: center;
 
 }
@@ -147,4 +167,10 @@ button{
 }
 li{
 	color: cyan;
+}
+a{
+	color: darkturquoise;
+}
+.ref{
+	margin-left: 3%;
 }
