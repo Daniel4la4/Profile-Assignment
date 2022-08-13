@@ -40,9 +40,17 @@ body{
 	margin-right: 100px;
 		margin-top: 1%;
 }
-img{
+.Pinfo img{
   margin: auto;
   display: block;
+}
+.interest img {
+	margin: auto;
+	display: inline-block;
+}
+.elec{
+	text-align: center;
+
 }
 .questions{
 	font-size: 175%;
